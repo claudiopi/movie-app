@@ -1,4 +1,4 @@
-import { IgrAvatar, IgrButton, IgrCard, IgrCardActions, IgrCardContent, IgrCardHeader, IgrCardMedia, IgrCarousel, IgrCarouselSlide, IgrDatePicker, IgrIconButton, IgrList, IgrListItem, IgrSelect, IgrSelectItem, IgrTab, IgrTabs } from '@infragistics/igniteui-react';
+import { IgrAvatar, IgrButton, IgrCard, IgrCardActions, IgrCardContent, IgrCardHeader, IgrCardMedia, IgrCarousel, IgrCarouselSlide, IgrDatePicker, IgrIconButton, IgrList, IgrListItem, IgrSelect, IgrSelectItem, IgrTab, IgrTabs } from 'igniteui-react';
 import { useState } from 'react';
 import { TheatresNearYouType } from '../models/MovieAppData/theatres-near-you-type';
 import { useGetMovieListList, useGetNowPlayingList, useGetShowtimesList, useGetTheatresList, useGetTheatresNearYouList } from '../hooks/movie-app-data-hooks';

@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@infragistics/igniteui-react": "~19.3.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "element-internals-polyfill": "^3.0.2",
     "functions-have-names": "^1.2.3",
+    "igniteui-react": "~19.3.0",
     "react": "^19.1.0",
     "react-app-polyfill": "^3.0.0",
     "react-dom": "^19.1.0",
@@ -37,8 +37,7 @@
     "build": "tsc && node --max-old-space-size=4096 node_modules/vite/bin/vite build",
     "preview": "vite preview",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
-    "test": "vitest",
-    "infragistics-login": "echo \"IMPORTANT: When prompted for username enter in this format `name!!domain.com`\" && npm adduser --registry=https://packages.infragistics.com/npm/js-licensed/ --scope=@infragistics --always-auth"
+    "test": "vitest"
   },
   "browserslist": [
     ">0.2%",
