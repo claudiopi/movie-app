@@ -1,4 +1,4 @@
-import { IgrButton, IgrList, IgrListItem } from '@infragistics/igniteui-react';
+import { IgrButton, IgrList, IgrListItem } from 'igniteui-react';
 import { useState } from 'react';
 import { MyPurchasesType } from '../models/MovieAppData/my-purchases-type';
 import { useGetMyPurchasesList } from '../hooks/movie-app-data-hooks';
